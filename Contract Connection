@@ -1,0 +1,8 @@
+import abi from "./CharityDonation.json"; // ABI from compilation
+
+const contract = {
+  address: "YOUR_DEPLOYED_CONTRACT_ADDRESS",
+  abi: abi.abi
+};
+
+export default contract;
